@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+const float PI=3.142;
+float areacircle(float r){
+    float area=PI*r*r;
+    return area;
+}
+int main(){
+    int r;
+    cout<<"enter the radious:";
+    cin>>r;
+    float area=areacircle(r);
+    cout<<"area of circle:"<<area<<endl;
+    return 0;
+}
